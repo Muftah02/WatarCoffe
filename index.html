@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dcae70">
+  <meta name="description" content="تواصل مع WTR عبر منصات التواصل الاجتماعي">
+  <title>WTR | تواصل معنا</title>
+  <style>
+    :root {
+      --sand: #dfb474;
+      --cream: #fff8e9;
+      --brown: #321b10;
+      --brown-soft: #5c3825;
+      --accent: #a9653d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; padding: 24px 16px 40px;
+      color: var(--brown);
+      background: radial-gradient(circle at 50% 0%, #f2d19b 0, var(--sand) 72%);
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .container { width: min(100%, 540px); margin: 0 auto; }
+    header { text-align: center; padding: 8px 8px 24px; }
+    .logo {
+      width: min(66%, 250px); aspect-ratio: 3 / 4; object-fit: cover;
+      display: block; margin: 0 auto 18px; border-radius: 26px;
+      border: 3px solid var(--brown); box-shadow: 0 8px 22px #59351f24;
+    }
+    h1 { margin: 0 0 8px; font-size: 25px; letter-spacing: 1px; }
+    .subtitle { margin: 0; font-size: 15px; color: #60432e; }
+    .links { display: grid; gap: 13px; }
+    .link {
+      min-height: 91px; display: flex; align-items: center; gap: 15px;
+      padding: 16px 19px; text-decoration: none; color: var(--brown);
+      background: var(--cream); border: 1px solid #754b2c20;
+      border-radius: 23px; box-shadow: 0 5px 13px #4b2b171c;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .link:hover { transform: translateY(-2px); box-shadow: 0 8px 18px #4b2b1728; }
+    .link.whatsapp { background: #241d18; color: #fff8e9; }
+    .icon {
+      width: 52px; height: 52px; flex: 0 0 52px; display: grid;
+      place-items: center; border-radius: 16px;
+      background: #dcae702b; color: var(--accent);
+    }
+    .whatsapp .icon { background: #ffffff17; color: #f0c99b; }
+    .icon svg { width: 27px; height: 27px; fill: none; stroke: currentColor;
+      stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .details { min-width: 0; flex: 1; }
+    .details strong { display: block; font-size: 18px; margin-bottom: 5px; }
+    .details small { display: block; font-size: 13px; opacity: .72; direction: ltr; text-align: right; overflow-wrap: anywhere; }
+    .arrow { font-size: 25px; opacity: .65; }
+    footer { text-align: center; margin-top: 22px; color: #67472e; font-size: 12px; }
+    @media (max-width: 360px) {
+      .link { padding: 14px; min-height: 82px; }
+      .details strong { font-size: 16px; }
+      .details small { font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <img class="logo" src="assets/wtr-logo.jpg" alt="شعار WTR">
+      <h1>WTR</h1>
+      <p class="subtitle">تواصل معنا على المنصة التي تناسبك</p>
+    </header>
+
+    <section class="links" aria-label="روابط التواصل الاجتماعي">
+      <a class="link whatsapp" href="https://wa.me/218922090955" target="_blank" rel="noopener noreferrer">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 11.5a8.2 8.2 0 0 1-12.1 7.2L4 20l1.3-3.7A8.2 8.2 0 1 1 20 11.5Z"/><path d="M8.8 8.2c.3-.6.6-.6.9-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4 0 .7.5.8 1.2 1.5 2 2 .3.2.5.2.7 0l.7-.8c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1-.7 1.3-.5.4-1.1.6-1.8.5-1-.1-2.2-.7-3.5-1.8-1.4-1.2-2.3-2.7-2.5-3.7-.2-.8.1-1.5.6-1.9Z"/></svg></span>
+        <span class="details"><strong>واتساب</strong><small>راسلنا مباشرة</small></span><span class="arrow">‹</span>
+      </a>
+
+      <a class="link" href="https://www.snapchat.com/@wtr20262026" target="_blank" rel="noopener noreferrer">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.2c-2.5 0-4 1.8-4 4.5 0 1.1.2 2.1.1 3.1-.1 1.1-.8 1.7-2.1 2.1-.6.2-1.3.3-1.5.8-.1.3.2.6.7.8.6.2 1.4.3 1.8.8.4.5.2 1.2-.2 1.8-.4.6-1.1 1-1.8 1.2 1 .7 2.2.5 3 .9.6.3.9 1.2 1.6 1.4.8.2 1.5-.3 2.4-.3s1.6.5 2.4.3c.7-.2 1-1.1 1.6-1.4.8-.4 2-.2 3-.9-.7-.2-1.4-.6-1.8-1.2-.4-.6-.6-1.3-.2-1.8.4-.5 1.2-.6 1.8-.8.5-.2.8-.5.7-.8-.2-.5-.9-.6-1.5-.8-1.3-.4-2-1-2.1-2.1-.1-1 .1-2 .1-3.1 0-2.7-1.5-4.5-4-4.5Z"/></svg></span>
+        <span class="details"><strong>سناب شات</strong><small>@wtr20262026</small></span><span class="arrow">‹</span>
+      </a>
+
+      <a class="link" href="https://www.instagram.com/coffeewtr?cplk=MXBzdDliODg5dHRnbA==" target="_blank" rel="noopener noreferrer">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></span>
+        <span class="details"><strong>إنستغرام</strong><small>@coffeewtr</small></span><span class="arrow">‹</span>
+      </a>
+
+      <a class="link" href="https://www.tiktok.com/@user904995633659" target="_blank" rel="noopener noreferrer">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3v11.2a4.2 4.2 0 1 1-3.4-4.1"/><path d="M14 3c.5 3 2.3 4.8 5.5 5"/></svg></span>
+        <span class="details"><strong>تيك توك</strong><small>@user904995633659</small></span><span class="arrow">‹</span>
+      </a>
+
+      <a class="link" href="https://www.facebook.com/share/1GHKVrdqKB/" target="_blank" rel="noopener noreferrer">
+        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-3H14V8.2c0-.9.3-1.5 1.6-1.5h2V4a22 22 0 0 0-2.8-.2c-2.8 0-4.7 1.7-4.7 4.8V10H7v3h3.1v8"/></svg></span>
+        <span class="details"><strong>فيسبوك</strong><small>تابع صفحتنا</small></span><span class="arrow">‹</span>
+      </a>
+    </section>
+    <footer>WTR · يسعدنا تواصلكم معنا</footer>
+  </main>
+</body>
+</html>
